@@ -1,0 +1,25 @@
+{
+  "id": "COT-20261112-5914",
+  "cliente": "cliente-demo-3",
+  "fecha": "2026-11-12T17:29:02",
+  "items": [
+    {
+      "sku": "MB-B650-ASUS",
+      "nombre": "ASUS TUF Gaming B650-PLUS WiFi",
+      "precio_clp": 189990
+    },
+    {
+      "sku": "CPU-R7-7800X3D",
+      "nombre": "AMD Ryzen 7 7800X3D",
+      "precio_clp": 379990
+    },
+    {
+      "sku": "RAM-DDR5-32GB-KINGSTON",
+      "nombre": "Kingston Fury Beast 32GB (2x16GB) DDR5 5600MHz",
+      "precio_clp": 119990
+    }
+  ],
+  "total_clp": 689970,
+  "advertencias": [],
+  "nota": "Precios y stock simulados (prototipo academico)."
+}

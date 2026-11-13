@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+venv/
+
+# Salidas generadas por el agente al ejecutarlo
+datos_agente/

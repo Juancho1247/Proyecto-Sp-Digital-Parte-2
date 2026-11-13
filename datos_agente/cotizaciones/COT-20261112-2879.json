@@ -1,0 +1,35 @@
+{
+  "id": "COT-20261112-2879",
+  "cliente": "anonimo",
+  "fecha": "2026-11-12T17:13:28",
+  "items": [
+    {
+      "sku": "GPU-4070-ASUS",
+      "nombre": "ASUS Dual RTX 4070 OC 12GB",
+      "precio_clp": 689990
+    },
+    {
+      "sku": "MB-B650-ASUS",
+      "nombre": "ASUS TUF Gaming B650-PLUS WiFi",
+      "precio_clp": 189990
+    },
+    {
+      "sku": "CPU-R7-7800X3D",
+      "nombre": "AMD Ryzen 7 7800X3D",
+      "precio_clp": 379990
+    },
+    {
+      "sku": "RAM-DDR5-32GB-KINGSTON",
+      "nombre": "Kingston Fury Beast 32GB (2x16GB) DDR5 5600MHz",
+      "precio_clp": 119990
+    },
+    {
+      "sku": "PSU-CORSAIR-650",
+      "nombre": "Corsair RM650x 650W 80+ Gold",
+      "precio_clp": 104990
+    }
+  ],
+  "total_clp": 1484950,
+  "advertencias": [],
+  "nota": "Precios y stock simulados (prototipo academico)."
+}
