@@ -71,7 +71,7 @@ flowchart TD
     PLAN -. trazas .-> LS
 ```
 
-### Flujo del planificador (IL2.3)
+### Flujo del planificador 
 
 ```mermaid
 flowchart TD
@@ -90,7 +90,7 @@ flowchart TD
     DER --> FIN2([DERIVADO A HUMANO])
 ```
 
-### Flujo de memoria entre sesiones (IL2.2)
+### Flujo de memoria entre sesiones 
 
 ```mermaid
 sequenceDiagram
@@ -114,7 +114,7 @@ sequenceDiagram
     L-->>A: "La fuente de 450W no alcanza…"
 ```
 
-## 🧩 Cómo se cumple cada indicador de la pauta (EP2)
+## 🧩 Cómo se cumple cada indicador de la pauta 
 
 | Indicador | Dónde está | Evidencia |
 |---|---|---|
@@ -162,7 +162,7 @@ El planificador es **determinista y sin LLM**, así cada decisión es reproducib
 | C | RTX 4070 + fuente 450W | Reemplaza la fuente por la Corsair 650W (plan v2) |
 | D | RAM DDR4 sin stock y sin alternativa compatible | Deriva a vendedor humano |
 
-## ⚖️ Justificación de componentes (IE9)
+## ⚖️ Justificación de componentes
 
 | Decisión | Alternativas | Por qué esta |
 |---|---|---|
@@ -188,8 +188,8 @@ El planificador es **determinista y sin LLM**, así cada decisión es reproducib
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/imQuasar/asistente-hardware-rag-sp-digital.git
-cd asistente-hardware-rag-sp-digital
+git clone https://github.com/Juancho1247/Proyecto-Sp-Digital-Parte-2.git
+cd Proyecto-Sp-Digital-Parte-2
 ```
 
 ### 2. Crear entorno virtual (Recomendado)
@@ -259,24 +259,3 @@ Abre `proyecto.ipynb` en VS Code, selecciona el entorno de Python y ejecuta las 
 ├── datos_agente/       # (se genera al ejecutar) cotizaciones, tickets y memoria de largo plazo
 └── README.md           # Este documento
 ```
-
-## 🤖 Declaración de uso de IA
-Se utilizó un asistente de IA (Claude, de Anthropic) como apoyo para estructurar e implementar el código del agente, generar los diagramas Mermaid y redactar esta documentación técnica a partir del RA2 del curso. El equipo revisó y ejecutó el código. *(Completar con el detalle final de uso.)* Las **reflexiones individuales y conclusiones del informe deben ser redactadas por cada integrante sin apoyo de IA**, según la pauta.
-
-## 📚 Referencias (APA 7)
-- CrewAI. (s. f.). *CrewAI documentation*. https://docs.crewai.com
-- Johnson, J., Douze, M., & Jégou, H. (2021). Billion-scale similarity search with GPUs. *IEEE Transactions on Big Data, 7*(3), 535–547. https://doi.org/10.1109/TBDATA.2019.2921572
-- LangChain. (s. f.). *LangChain documentation*. https://docs.langchain.com
-- LangChain. (s. f.). *LangSmith documentation*. https://docs.smith.langchain.com
-- Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., Riedel, S., & Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. *Advances in Neural Information Processing Systems, 33*, 9459–9474.
-- Meta AI. (s. f.). *FAISS: A library for efficient similarity search* [Repositorio]. GitHub. https://github.com/facebookresearch/faiss
-- Mistral AI. (s. f.). *Mistral AI documentation*. https://docs.mistral.ai
-- Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2023). *MemGPT: Towards LLMs as operating systems* [Preprint]. arXiv. https://arxiv.org/abs/2310.08560
-- Valenzuela, F. (s. f.). *Ingeniería de Soluciones con Inteligencia Artificial, RA2: Desarrollo de agentes inteligentes* [Repositorio]. GitHub. https://github.com/fvalenzuelag/Ingenier-a-de-Soluciones-con-Inteligencia-Artificial
-- Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2023). ReAct: Synergizing reasoning and acting in language models. *International Conference on Learning Representations (ICLR 2023)*. https://arxiv.org/abs/2210.03629
-
-## ✍️ Reflexión individual
-*(Cada integrante redacta aquí, sin apoyo de IA, su aprendizaje y contribución al proyecto.)*
-
-- **Aaron Gonzalez Rojas:**
-- **Juan Montero Henao:**
