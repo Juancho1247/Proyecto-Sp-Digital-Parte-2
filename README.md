@@ -209,6 +209,7 @@ source venv/bin/activate
 ### 3. Instalar librerías
 ```bash
 pip install -r requirements.txt
+pip install python-dotenv openai httpx langsmith numpy faiss-cpu langchain-openai langchain-core langchain-classic ipykernel
 ```
 
 ### 4. Configurar las API Keys (.env)
