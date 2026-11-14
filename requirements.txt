@@ -5,7 +5,7 @@ numpy>=2.0
 faiss-cpu>=1.9
 langsmith>=0.10
 
-# EP2 – agente (mismas librerías que el RA2 del curso)
+# EP2 – agente
 langchain-core>=1.0
 langchain-openai>=1.0
 langchain-classic>=1.0
